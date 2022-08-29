@@ -203,6 +203,13 @@
     animation: animation .5s forwards;
 }
 
+.back{
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
 
 #projetos, #skills, #experiencias{
@@ -216,7 +223,7 @@
     transition: all 2s;
 }
 .titleLine{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .titleLine h1{
     color: #000;
@@ -264,20 +271,33 @@
 .card h2{
     font-size: 20px;
     margin-top: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .card p{
     line-height: 22px;
-    margin-bottom: 30px;
+    margin: 5px;
+    
 }
 
-.more{
-    color: #116dff;
-    text-decoration: none;
-    margin-bottom: 30px;
-    margin-top: 30px;
+.card a{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
+
+
+.card a ion-icon{
+    font-size: 45px;
+    margin-top: 35px;
+    color: #000;
+    width: 100%;
+    
+    
+}
+
+
 
 .cardDesc{
     margin-left: 10px;
@@ -448,11 +468,13 @@ footer{
         margin-top: 50px;
     }
 
-    .cardProjetos {
+    .cardProjetos, .back {
         align-items: center;
         justify-content: center;
         text-align: center;
     }
+
+    
 
     .cardImg img{
         max-width: 300px;
